@@ -25,7 +25,6 @@ class Smartphone(Phone, SatellitePhone):
         print('Downloading application from market')
 
 
-
 phone1 = Phone('Nokia', 'eqweqweq12312', '09578888888')
 print(phone1.model, phone1.phone_number, phone1.imei)
 phone1.model = 'Mototorolla'
