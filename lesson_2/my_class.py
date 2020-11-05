@@ -22,7 +22,7 @@ class Smartphone(Phone, SatellitePhone):
     type_ = 'Смартфон'
 
     def download_application(self):
-        print('Downloading application from market')
+        pass
 
 
 phone1 = Phone('Nokia', 'eqweqweq12312', '09578888888')

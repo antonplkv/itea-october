@@ -1,6 +1,5 @@
 from functools import wraps
 
-
 def decorator(number=3):
 
     def actual_decorator(func):
