@@ -17,3 +17,9 @@ class CustomArray:
 
 for i in CustomArray(10, int):
     print(i)
+
+
+numbers = [10, 20, 8, 300]
+
+for i, v in enumerate(numbers):
+    print(i, v)
