@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Продукты</title>
+</head>
+<body>
+<h1> Вот наши продукты:</h1>
+
+    {% for product in products %}
+    <p> <a href="/products/{{product}}">{{product}}</a> </p>
+    {% endfor %}
+</body>
+</html>
