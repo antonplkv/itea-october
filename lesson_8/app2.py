@@ -7,8 +7,9 @@ cars = [
 ]
 
 
-# def add_car(**kwargs):
-#     SQL = 'SQL '.execude(kwargs.get('price'), kwargs.get('model'))
+def add_car(**kwargs):
+    SQL = 'SQL insert INTO CARS (model, price), VALUES(?, ?) '.execute(kwargs.get('model'), kwargs.get('price'))
+
 
 @app.route('/cars')
 def get_cars():
